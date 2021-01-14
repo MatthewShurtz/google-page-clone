@@ -1,31 +1,31 @@
 /* NAV BAR */
 .container {
-  display: flex;
-  flex-direction: row;
   width: 100%;
 }
 
-#nav-link-one {
-  justify-content: left;
+.nav-list-links {
+  list-style-type: none;
+  display: flex;
 }
 
-#nav-link-two {
-  justify-content: left;
+.nav-list > a {
+  text-decoration: none;
+  color: black;
 }
 
-#nav-link-three {
-  justify-content: right;
+.nav-list-left {
+  float: left;
+  width: 10%;
+  justify-content: space-evenly;
 }
 
-#nav-link-four {
-  justify-content: right;
+.nav-list-right {
+  float: right;
+  width: 22%;
+  justify-content: space-evenly;
 }
 
-#nav-link-five {
-  justify-content: right;
-}
-
-/* IMAGE STYLING */
+/*NAV IMAGE STYLING */
 #google-app-icon {
   width: 30px;
   height: 30px;
@@ -37,4 +37,22 @@
   height: 40px;
   align-items: right;
   border-radius: 50%;
+}
+
+/* GOOGLE LOGO */
+.google-logo {
+  position: fixed;
+  width: 20%;
+  top: 30%;
+  left: 40%;
+}
+
+/* SEARCH BOX */
+.search-box {
+  position: fixed;
+  top: 44%;
+  left: 32%;
+  width: 35%;
+  height: 4%;
+  border-radius: 20px;
 }
